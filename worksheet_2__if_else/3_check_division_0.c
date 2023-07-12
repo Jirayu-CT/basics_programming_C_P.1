@@ -11,7 +11,7 @@ int main(){
 	scanf("%d", &num2);
 	
 	if(num2 == 0){
-		printf("À“√‰¡Ë‰¥È");
+		printf("0 ‡∏´‡∏≤‡∏£‡πÑ‡∏°‡πà‡πÑ‡∏î‡πâ");
 	}
 	else{
 		sum = num1/num2;
