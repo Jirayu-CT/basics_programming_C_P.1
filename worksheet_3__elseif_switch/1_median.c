@@ -45,7 +45,7 @@ int main() {
         median = c;
     }
     
-    printf("%d", median);
+    printf("median: %d", median);
     
     return 0;
 }

@@ -8,10 +8,10 @@ int main(){
 	scanf("%d", &num);
 	
 	if(num%2 == 0){
-		printf("%d ??????????", num);
+		printf("%d Is Even", num);
 	}
 	else{
-		printf("%d ??????????", num);
+		printf("%d Is Odd", num);
 	}
 	
 	return 0;
