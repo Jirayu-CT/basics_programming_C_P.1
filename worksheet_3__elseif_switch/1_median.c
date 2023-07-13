@@ -15,31 +15,12 @@ int main() {
     printf("Press Input Number3: ");
     scanf("%d", &c);
     
-    //ascending
-    if(a>b){
-        int tamp = a;
-        a = b;
-        b = tamp;
-    }
-    
-    if(b>c){
-        int tamp = b;
-        b = c;
-        c = tamp;
-    }
-    
-    if(a>b){
-        int tamp = a;
-        a = b;
-        b = tamp;
-    }
-    
-    //median
-    if(a<=b && b<=c){
-        median = b;
-    }
-    else if(b<=a && a<=c){
+
+    if(a>=b && a<=c || a<=b && a>=c){
         median = a;
+    }
+    else if(b>=a && b<=c || b<=a && b>=c){
+        median = b;
     }
     else{
         median = c;
