@@ -36,7 +36,7 @@ int main() {
     }
     
     else{
-        if(c>a>=b){
+        if(c>a && a>=b){
             d += a;
             if(d>a){
                 b += 2;
