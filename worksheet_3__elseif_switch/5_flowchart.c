@@ -49,7 +49,7 @@ int main() {
             b = 2*b;
         }
     }
-    printf("A=%d\n B=%d\n C=%d\n D=%d\n", a, b, c, d);
+    printf("A=%d\nB=%d\nC=%d\nD=%d\n", a, b, c, d);
 
     return 0;
 }
