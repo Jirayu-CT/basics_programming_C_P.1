@@ -6,7 +6,7 @@ int main() {
     printf("Press Input Wright(g.): ");
     scanf("%d", &weight);
     
-    if (weight<100){
+    if (weight<=100){
         printf("Price: 18 Baht");
     }
     else if (weight<=250){
