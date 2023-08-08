@@ -24,37 +24,32 @@ int main() {
             if(c>d){
                 c -= a;
                 b = a+c+d;
-                printf("%d %d %d %d", a, b, c, d);
             }
             else{
                 b = a+c+d;
-                printf("%d %d %d %d", a, b, c, d);
             }
         }
         else{
             c += a;
             b = a+c+d;
-            printf("%d %d %d %d", a, b, c, d);
         }
     }
     
     else{
-        if(c>a>=b){
+        if(c>a && a>=b){
             d += a;
             if(d>a){
                 b += 2;
-                printf("%d %d %d %d", a, b, c, d);
             }
         }
         else if(d>c){
             b += 2;
-            printf("%d %d %d %d", a, b, c, d);
         }
         else{
             b = 2*b;
-            printf("%d %d %d %d", a, b, c, d);
         }
     }
+    printf("A=%d\nB=%d\nC=%d\nD=%d\n", a, b, c, d);
 
     return 0;
 }
