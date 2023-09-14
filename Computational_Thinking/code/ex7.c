@@ -1,8 +1,14 @@
 #include <stdio.h>
 
+
+int Room_cate(int room_cate);
+int Electric();
+int Water();
+int Show_bill();
+
+
 char month[10] = "";
 char *room_cate_Char[10];
-
 int room_num = 0;
 int room_cate = 0;
 int rent = 0;
@@ -18,10 +24,6 @@ int water = 0;
 int water_before = 0;
 int water_after = 0;
 int water_unit = 20;
-
-int Room_cate(int room_cate);
-int Electric();
-int Water();
 
 
 int Room_cate(int room_cate){
