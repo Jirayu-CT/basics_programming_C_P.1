@@ -7,7 +7,7 @@ int main(){
 	printf("Press Input Name: ");
 	scanf("%s", &name);
 	
-	printf("Name: %s", name);
+	printf("Hello %s", name);
 	
 	return 0;
 }
